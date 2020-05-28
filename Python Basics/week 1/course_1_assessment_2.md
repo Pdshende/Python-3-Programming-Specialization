@@ -15,3 +15,13 @@ rv = """Once upon a midnight dreary, while I pondered, weak and weary,<br>
 # Write your code here!<br>
 num_chars = len(rv)<br>
 print(num_chars)<br>
+
+Q3. The code below initializes two variables, z and y. We want to assign the total number of characters in z and in y to the variable a. Which of the following solutions, if any, would be considered hard coding?<br>
+
+z = "hello world"<br>
+y = "welcome!"<br>
+
+
+A. a = len("hello worldwelcome!")<br>
+B. a = 11 + 8
+D. a = len("hello world") + len("welcome!")
