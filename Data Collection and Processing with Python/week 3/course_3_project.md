@@ -106,12 +106,12 @@ def extract_movie_titles(dic):
 
 Please copy the completed functions from the two code windows above into this active code window. Next, you’ll write a function, called get_related_titles. It takes a list of movie titles as input. It gets five related movies for each from TasteDive, extracts the titles for all of them, and combines them all into a single list. Don’t include the same movie twice.
 
+```
+#some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
 
-# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+#get_related_titles(["Black Panther", "Captain Marvel"])
 
-# get_related_titles(["Black Panther", "Captain Marvel"])
-
-# get_related_titles([])
+#get_related_titles([])
 
 import requests_with_caching
 
